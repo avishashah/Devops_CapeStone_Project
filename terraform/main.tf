@@ -7,6 +7,7 @@ resource "aws_instance" "my_ec2" {
   instance_type = "t3.micro"
   availability_zone = "eu-north-1a"
   key_name      = "ipat-north"
+  associate_public_ip_address = true
 
   tags = {
     Name = "purva-firststsproject"
