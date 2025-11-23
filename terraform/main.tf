@@ -10,6 +10,6 @@ resource "aws_instance" "my_ec2" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "purva-firststsproject"
+    Name = "avisha-firststsproject_new"
   }
 }
